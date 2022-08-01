@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body {
+  padding: 0px 120px;
+  padding-bottom: 40px;
+  background-color: beige;
+}

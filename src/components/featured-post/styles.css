@@ -1,0 +1,44 @@
+.featured-post-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    color: #222830;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.featured-post-image{
+    width: 42vw;
+    height: 25vw;
+    border-radius: 5%;
+    margin: 10px;
+    object-fit: cover;
+    
+    
+    
+}
+
+.featured-post-container div:nth-child(2){
+    
+    max-width: 42vw;
+
+}
+
+.featured-post-date{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    
+}
+
+.featured-post-title{
+    margin-top: 20px;
+    color: #222830;
+    font-weight: 500;
+
+}
+
+.featured-post-description{
+    margin-top: 10px;
+    color: #565757;
+
+}

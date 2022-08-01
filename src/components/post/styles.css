@@ -1,0 +1,48 @@
+.post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: bisque;
+    color: #222830;
+    margin-top: 80px;
+    border-radius: 10px;
+    /* margin-left: 15px; */
+}
+
+.post-image{
+    width: 37vw;
+    height: 18vw;
+    border-radius: 5px;
+    margin: 5px;
+    object-fit: cover;
+    
+    
+    
+}
+
+.post-container div:nth-child(2){
+    
+    max-width: 35vw;
+
+}
+
+.post-date{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    /* margin-top: -10px; */
+    /* margin-left: 10px; */
+    
+}
+
+.post-title{
+    margin-top: 10px;
+    color: #222830;
+    font-size: 1.4rem;
+
+}
+
+.post-description{
+    margin-top: 10px;
+    color: #565757;
+
+}
